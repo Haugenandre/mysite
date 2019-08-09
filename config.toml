@@ -1,0 +1,48 @@
+baseURL = "http://beta.klar.no"
+
+title = "Klar"
+DefaultContentLanguage = "no"
+languageName = "No"
+languageCode = "no"
+publishDir = "docs"
+
+
+[params]
+logo = "/images/logo.svg"
+
+
+
+[languages]
+  [languages.no]
+     languageName = "No"
+     languageCode = "no"
+     weight = "1"
+     thumbnail = ""
+     title = ""
+     description = ""
+
+ [[languages.no.menu.meny]]
+     name = "work"
+     identifier = "work"
+    description = ""
+     title = "My work - a collection of my work"
+     url = "/work/"
+     weight = "1"
+
+ [[languages.no.menu.meny]]
+     name = "about"
+     identifier = "work"
+    description = ""
+     title = "About - This is me"
+     url = "/about/"
+     weight = "2"
+
+ [[languages.no.contact.meny]]
+     name = "contact"
+     identifier = "contact"
+    description = ""
+     title = "contact - TPlease get in thouch"
+     url = "/contact/"
+     weight = "2"    
+
+

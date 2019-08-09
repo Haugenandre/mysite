@@ -1,0 +1,172 @@
+/** COLORS **/
+
+    /**primary**/
+
+    $blue: #3C6FE9; 
+    $red: #e9425e;  
+    $green: #31B096; 
+    $yellow: #ebaf41;
+    $dark-blue: #153559;
+    $dark: #18243f;
+    $white: #fff;
+    $light-grey: #fafafa;
+    $grey: #e4e4e4;
+    $dark-grey: #3b455b;
+    
+    
+@import "header.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Amiri|Roboto 100 400&display=swap');
+
+
+html {
+    font-size: 18px;
+    background: none;
+    @media screen and (max-width: 991px) {
+        font-size: 16px;
+
+    }
+}
+
+body {
+    background: $dark-blue;
+    margin: 0;
+    color: $dark-blue;
+    min-height: 3000px;
+}
+
+.grid {
+    background: $white;
+    padding-left: 5em;
+    padding-right: 5em; 
+    padding-top: 5em;  
+    padding-bottom: 5em;
+}
+/**FONTS**/
+ 
+h1, h2, h3, h4 {
+    font-family: Amiri;
+    font-weight: 700;
+    letter-spacing: .5;
+}
+
+p, a {
+font-family: 'Roboto', sans-serif;;
+font-weight: 200;
+margin-bottom:3em;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/**Topbanner**/
+
+.top-banner {
+    margin-top: 98px;
+}
+
+
+
+
+
+ /**BUTTINS**/
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: $red;
+    min-width: 150px;
+    font-weight: 400;
+    text-align: center;
+    color: $white;
+    &:hover {
+      
+        
+    }
+    &:active {
+        border: 5px solid rgba(200, 66, 94, 0.8);
+        padding: 15px 25px;
+    }
+}
+
+
+.cta {   
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all .2s ease;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      border-radius: 50px;
+      background: $red;
+      width: 60px;
+      height: 60px;
+      transition: all .5s ease;
+    }
+    span { 
+      position: relative;
+      font-size: 18px;
+      font-weight: 500;
+      color: $dark-blue;
+      vertical-align: middle;
+    }
+    svg {  
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: $dark-blue;
+    stroke-width: 2;
+    transform: translateX(-7px);
+    transition: all .5s ease;
+}
+  &:hover { 
+    span {
+        color: $white;
+    }
+    svg {
+        transform: translateX(0);
+        transition: all .5s ease;
+        stroke: $white;
+        
+         }
+      
+            &:before { 
+              width: 100%;
+            
+            }
+            
+        }
+        &:active {
+           
+            &:before {
+                border: 5px solid rgba(200, 66, 94, 0.8);
+                padding: 14px 17px;
+             /**transform: scale(.96);**/
+            }
+            
+        }
+    }
+                    
+        
+
+      
+   
+  
+/**MEDIAQUARIES**/
+
+@media (min-width: 112.5em) {
+.grid {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+}
