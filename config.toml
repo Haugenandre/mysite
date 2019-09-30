@@ -1,6 +1,6 @@
 baseURL = "http://beta.klar.no"
 
-title = "Klar"
+title = "Mysite"
 DefaultContentLanguage = "no"
 languageName = "No"
 languageCode = "no"
