@@ -1,9 +1,10 @@
 {{ define "main" }}
 
+ 
             
 
 
-<div class="grid top-banner">
+<div class="grid top">
     <h1>Welcome to MySite</h1>
     <p>Sann går no dagan</p>
     <a class="cta" href="{{ "/" | relURL }}"><span>Finn ut mer om</span> <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -18,6 +19,12 @@
           <a class="btn" href="{{ "contact" | relURL }}">Finn ut mer om</a>      
     
     </div> 
+
+    <div>
+        {{ with .Site.GetPage "contact/contactbanner" }}
+        {{ partial "contactbanner.html" . }}
+        {{ end }}
+    </div>    
 
 
   

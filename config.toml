@@ -31,9 +31,9 @@ logo = "/images/logo.svg"
 
  [[languages.no.menu.meny]]
      name = "about"
-     identifier = "work"
-    description = ""
-     title = "About - This is me"
+     identifier = "about"
+     description = "ss"
+     title = "About"
      url = "/about/"
      weight = "2"
 

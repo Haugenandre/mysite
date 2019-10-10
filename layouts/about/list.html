@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="container">
+    {{ with .Site.GetPage "contactbanner" }}
+    {{ partial "contactbanner.html" . }}
+{{ end }}
+</section>
+
+
+{{ end }}

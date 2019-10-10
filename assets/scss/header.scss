@@ -1,12 +1,9 @@
 header{
     background: $white;
-    border-bottom: 2px solid $red;
-
-    padding-left: 5em;
-    padding-right: 5em; 
+    border-bottom: 2px solid $dark;
 
     position: fixed;
-    padding: 25px 40px 25px 35px;
+    padding: 25px;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,6 +20,7 @@ header{
 }
 .header-logo {
     width: 100px;
+    margin: 0;
 
 
 }
