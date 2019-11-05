@@ -18,30 +18,25 @@ logo = "/images/logo.svg"
      languageCode = "no"
      weight = "1"
      thumbnail = ""
-     title = ""
-     description = ""
+     title = "Home"
+     description = "Hjemmeside"
 
  [[languages.no.menu.meny]]
-     name = "work"
-     identifier = "work"
-    description = ""
-     title = "My work - a collection of my work"
-     url = "/work/"
-     weight = "1"
+  
 
  [[languages.no.menu.meny]]
      name = "about"
      identifier = "about"
-     description = "ss"
+     description = ""
      title = "About"
      url = "/about/"
-     weight = "2"
+     weight = "1"
 
  [[languages.no.contact.meny]]
      name = "contact"
-     identifier = "contact"
-    description = ""
-     title = "contact - TPlease get in thouch"
+     identifier = "contact" 
+     description = ""
+     title = "Contact us"
      url = "/contact/"
      weight = "2"    
 

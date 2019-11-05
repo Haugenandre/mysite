@@ -1,10 +1,8 @@
-<title>{{ if .Page.Title }}{{ .Page.Title }}  {{ end }}</title>
 
-<div class="p-2 bd-highlight pr-sm-3 pr-lg-5 flex-fill">
-	<img class="banner-image" src="{{ .Params.Image }}" alt="">
-</div>
-<div>
-<h4>{{ .Description }}</h4>
-</div>
-
-
+       <h1>{{ .Title }}</h1>
+       <h4>{{.Description}}</h4>  
+       {{ .Content }} 
+       
+    <div class="header-content p-2 bd-highlight pl-sm-3 pl-lg-5 flex-fill">
+            <img class="top-image" src="{{ .Params.Image }}">
+     </div>

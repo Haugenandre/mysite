@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="container">
     <div>
-        {{ with .Site.GetPage "contact/contactbanner" }}
+        {{ with .Site.GetPage "contact" }}
         {{ partial "contactbanner.html" . }}
         {{ end }}
     </div>  
